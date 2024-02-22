@@ -94,7 +94,7 @@ pipeline {
                             groupId: NEXUS_REPOGRP_ID,
                             version: ARTVERSION,
                             repository: NEXUS_REPOSITORY,
-                            credentialsId: NEXUS_CREDENTIAL_ID,
+                           credentialsId: NEXUS_CREDENTIAL__ID,
                             artifacts: [
                                 [artifactId: pom.artifactId,
                                 classifier: '',
